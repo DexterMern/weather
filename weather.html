@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>weather</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="search-box">
+            <input type="search" name="search" id="search-input">
+            <button id="btn-search"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="loading">loading ...</div>
+        <div class="name-box dis">
+            <h2>weather in</h2><span class="name-city"></span>
+        </div>
+        <div class="degree-box dis">
+            <h2 class="degree"></h2><span>℃</span>
+        </div>
+        <div class="feel-box dis">
+            <i class="fa fa-cloud"></i><span class="feel-weather"></span>
+        </div>
+        <div class="Humidity-box dis">
+            <h2>humidity :</h2><span class="number-humidity"></span>
+        </div>
+        <div class="WindSpeed-box dis">
+            <h2>wind speed :</h2><span class="number-windSpeed"></span><span>km/h</span>
+        </div>
+    </section>
+    <script src="weader.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
